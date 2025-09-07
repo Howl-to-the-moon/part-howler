@@ -1,29 +1,16 @@
 body {
     background: rgb(136, 136, 136);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.navi {
-    
-display: flex;
-justify-content: space-between;
-padding: 16px;
-background-color: #2e2e2e;
-}
-
-.logo{
-    color: crimson;
-    font-size: 32px;
-    font-weight: 900;
+    display: flex;
+    flex-flow: column;
     margin: 0;
-
-
+    padding: 0;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
     padding: 0px;
     margin: 0px;
     gap: 16px;
@@ -34,10 +21,45 @@ a {
    color: red;
 }
 
+.navi {
+    
+display: flex;
+justify-content: space-between;
+padding: 16px;
+margin: 0px 16px;
+background-color: #2e2e2e;
+border: 5px solid black;
+border-radius: 20px;
+}
+
+
+
+
 .mainfuck{
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding: 24px;
     background-color: antiquewhite;
-    border: 8px black;
+  
+    
+}
+
+.textboxB{
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(39, 39, 39);
+    border-radius: 16px;
+    padding: 16px;
+
+}
+
+
+
+#logo{
+    color: crimson;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0;
 }
