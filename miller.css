@@ -1,0 +1,91 @@
+body {
+    background: rgb(59, 59, 59);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+}
+
+a {
+   text-decoration: none; 
+   color: red;
+}
+
+
+
+.navi {
+    
+display: flex;
+justify-content: center;
+padding: 16px;
+margin: 20px 16px;
+background-color: #7DB042;
+border: 5px solid #092706;
+border-radius: 20px;
+}
+
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    width: 1000px;
+    margin: 0px;
+    background-color: rgb(53, 51, 49);
+    border: 5px rgb(29, 28, 26) solid;
+    border-radius: 8px;
+    
+}
+
+.textboxM{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    color: #EC494C;
+    background-color: #092706;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 16px;
+
+}
+
+
+
+#logo{
+    color: #EC494C;
+    font-family: 'Convergence';
+    font-size: 32px;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+
+     text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
+}
+
+#selfie {
+    height: 500px;
+    border: 5px #092706 solid;
+}
