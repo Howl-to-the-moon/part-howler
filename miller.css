@@ -1,9 +1,8 @@
 body {
-    background: rgb(59, 59, 59);
+    background: rgb(24, 24, 24);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    
     margin: 0;
     padding: 0;
 }
@@ -22,9 +21,14 @@ a {
    color: red;
 }
 
+.flexhead{
+    display: flex;
+    
+   justify-content: center;
+}
 
 
-.navi {
+.head {
     
 display: flex;
 justify-content: center;
@@ -63,8 +67,13 @@ border-radius: 20px;
 
 .blog{
     display: flex;
-    height: 500px;
-    background-color: aliceblue
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(156, 173, 161);
+    border: 5px solid #ffffff;
+    padding: 20px;
+    margin: 10px
 }
 
 .textboxM{
@@ -90,6 +99,7 @@ border-radius: 20px;
   justify-content: center;
   align-items: center;
   flex: 0 0 auto;
+  margin: 0;
   
 }
 
