@@ -67,9 +67,10 @@ border-radius: 20px;
 
 .blog{
     display: flex;
+    width: 300px;
     justify-content: center;
     align-items: center;
-    
+    text-align: center;
     background-color: rgb(156, 173, 161);
     border: 5px solid #ffffff;
     padding: 20px;
@@ -88,6 +89,20 @@ border-radius: 20px;
     padding: 16px;
 
 }
+
+.textboxMF {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    color: #EC494C;
+    background-color: #092706;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+
 
 
 .footer {
