@@ -38,7 +38,9 @@ border-radius: 20px;
 .mainfuck{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 24px;
+    margin: 35px;
     background-color: antiquewhite;
   
     
@@ -46,7 +48,10 @@ border-radius: 20px;
 
 .textboxB{
     display: flex;
-    width: 250px;
+    
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
     justify-content: center;
     align-items: center;
     border: 5px solid rgb(39, 39, 39);
@@ -62,4 +67,8 @@ border-radius: 20px;
     font-size: 32px;
     font-weight: 900;
     margin: 0;
+}
+
+#blanklink{
+    color: #2e2e2e;
 }
